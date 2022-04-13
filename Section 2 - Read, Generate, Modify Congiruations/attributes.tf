@@ -13,7 +13,7 @@ output "eip" {
 }
 
 resource "aws_s3_bucket" "mys3" {
-  bucket = "demo-attribute-001"
+  bucket = "mydemo-attribute-001"
 }
 
 output "mys3bucket" {
